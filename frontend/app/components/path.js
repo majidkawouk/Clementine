@@ -7,6 +7,7 @@ export const foundationsOfCPath = {
   fullDescription: [
   ],
   modules: [
+    { title: "مقدمة" ,link: "/paths/C-Course/0" },
     { title: "بيئات التطوير (IDEs)" ,link: "/paths/C-Course/1" },
     { title: "أول برنامج لك في لغة C",link: "/paths/C-Course/2" },
     { title: "المتغيرات (Variables)",link: "/paths/C-Course/3" },

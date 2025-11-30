@@ -27,7 +27,7 @@ export default function Header() {
           <span className="absolute inset-x-0 -bottom-1 h-0.5 bg-[#FF9800] transform origin-right scale-x-0  transition-transform duration-300 group-hover:scale-x-100"></span>
         </Link>
         <Link 
-          href={"http://localhost:3000/paths/C-Course/0"}
+          href={"paths/C-Course/0"}
           className="hover:text-gray-300 transition duration-150 relative group"
         >
           حول/عنّا
@@ -35,9 +35,9 @@ export default function Header() {
         </Link>
         
        
-        <button className="py-2 px-4 rounded-lg font-bold transition text-black duration-300 shadow-md bg-[#FF9800] hover:bg-[#af7010]">
+        <Link href={"paths/"} className="py-2 px-4 rounded-lg font-bold transition text-black duration-300 shadow-md bg-[#FF9800] hover:bg-[#af7010]">
           ابدأ الآن
-        </button>
+        </Link>
       </div>
 
      

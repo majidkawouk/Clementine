@@ -81,15 +81,14 @@ export default function About() {
             <p className="font-semibold text-[#FF9800]">
               تعلم كيفية البرمجة هو حقًا يتعلق بالكتابة والتجريب الفعلي على ما
               يمكنك فعله بدلاً من مجرد القراءة أو مشاهدة الدروس التعليمية.
-                </p>
+            </p>
             <Link
-            className="bg-[#FF9800] text-white font-bold py-2 px-6 rounded-lg shadow-md hover:bg-[#af7010] transition duration-300"
-            href={"http://localhost:3000/paths/C-Course/1"}>
-            ابدأ رحلتك في تعلم البرمجة الآن &rarr;
+              className="bg-[#FF9800] text-white font-bold py-2 px-6 rounded-lg shadow-md hover:bg-[#af7010] transition duration-300"
+              href={"/paths/C-Course/1"}
+            >
+              ابدأ رحلتك في تعلم البرمجة الآن &rarr;
             </Link>
           </div>
-
-          
         </section>
       </div>
     </div>

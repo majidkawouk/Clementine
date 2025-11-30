@@ -1,4 +1,5 @@
 import { Zap, BookOpen, HardDrive, LucideIcon } from 'lucide-react';
+import Link from 'next/link';
 import { FC } from 'react';
 
 interface FeatureCardProps {
@@ -26,9 +27,9 @@ export default function LandingPage() {
           <p className="text-xl md:text-2xl text-white mb-10 max-w-3xl mx-auto">
             ابدأ رحلتك البرمجية من حيث بدأ كل شيء. مسارات تعليمية خطوة بخطوة للمبتدئين.
           </p>
-          <button className="py-3 px-10 rounded-full font-bold transition duration-300 shadow-xl bg-[#FF9800] text-[#003366] text-lg hover:brightness-110">
+          <Link href={"paths"} className="py-3 px-10 rounded-full font-bold transition duration-300 shadow-xl bg-[#FF9800] text-[#003366] text-lg hover:brightness-110">
             ابدأ الآن مجاناً
-          </button>
+          </Link>
         </div>
       </section>
 
@@ -61,9 +62,7 @@ export default function LandingPage() {
         <h2 className="text-3xl font-bold text-white mb-6">
           انضم إلى آلاف المبرمجين وابدأ رحلتك الآن!
         </h2>
-        <a href="#" className="py-3 px-8 rounded-full border-2 border-white text-white font-semibold hover:bg-white hover:text-[#003366] transition duration-150 text-lg">
-          سجّل الدخول للمتابعة
-        </a>
+        
       </section>
     </main>
   );
