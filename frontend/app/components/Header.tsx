@@ -35,7 +35,7 @@ export default function Header() {
         </Link>
         
        
-        <Link href={"paths/"} className="py-2 px-4 rounded-lg font-bold transition text-black duration-300 shadow-md bg-[#FF9800] hover:bg-[#af7010]">
+        <Link href={"/paths"} className="py-2 px-4 rounded-lg font-bold transition text-black duration-300 shadow-md bg-[#FF9800] hover:bg-[#af7010]">
           ابدأ الآن
         </Link>
       </div>
