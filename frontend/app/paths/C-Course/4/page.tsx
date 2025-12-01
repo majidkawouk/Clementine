@@ -430,13 +430,13 @@ printf("a = %d, b = %d, c = %d\\n", a, b, c);`}</code>
 
         <div className="w-full flex justify-between text-black text-lg font-semibold">
           <Link
-            href={"http://localhost:3000/paths/C-Course/5"}
+            href={"/paths/C-Course/5"}
             className="mt-4 text-center rounded-md mx-auto w-90 bg-[#FF9800] py-2 px-10"
           >
             الدرس التالي
           </Link>
           <Link
-            href={"http://localhost:3000/paths/C-Course/3"}
+            href={"/paths/C-Course/3"}
             className="mt-4 text-center rounded-md mx-auto w-90 bg-[#FF9800] py-2 px-10"
           >
             الدرس السابق

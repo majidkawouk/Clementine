@@ -27,7 +27,7 @@ export default function Header() {
           <span className="absolute inset-x-0 -bottom-1 h-0.5 bg-[#FF9800] transform origin-right scale-x-0  transition-transform duration-300 group-hover:scale-x-100"></span>
         </Link>
         <Link 
-          href={"paths/C-Course/0"}
+          href={"/paths/C-Course/0"}
           className="hover:text-gray-300 transition duration-150 relative group"
         >
           حول/عنّا

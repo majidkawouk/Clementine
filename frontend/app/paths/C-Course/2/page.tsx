@@ -247,14 +247,14 @@ int main() {
           </ol>
           <div className="w-full flex justify-between text-black text-lg font-semibold">
             <Link
-              href={"http://localhost:3000/paths/C-Course/3"}
-              className="mt-4 text-center rounded-md mx-auto w-90 bg-[#FF9800] py-2 px-10"
+              href={"/paths/C-Course/3"}
+            className="mt-4 text-center rounded-md mx-auto w-90 bg-[#FF9800] py-2 px-10"
             >
               الدرس التالي
             </Link>
             <Link
-              href={"http://localhost:3000/paths/C-Course/1"}
-              className="mt-4 text-center rounded-md mx-auto w-90 bg-[#FF9800] py-2 px-10"
+              href={"/paths/C-Course/1"}
+            className="mt-4 text-center rounded-md mx-auto w-90 bg-[#FF9800] py-2 px-10"
             >
               الدرس السابق
             </Link>

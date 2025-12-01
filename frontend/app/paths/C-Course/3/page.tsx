@@ -551,13 +551,13 @@ printf("here is my_char: %c\\n", my_char);`}
 
           <div className="w-full flex justify-between text-black text-lg font-semibold">
             <Link
-              href={"http://localhost:3000/paths/C-Course/4"}
+              href={"/paths/C-Course/4"}
               className="mt-4 text-center rounded-md mx-auto w-90 bg-[#FF9800] py-2 px-10"
             >
               الدرس التالي
             </Link>
             <Link
-              href={"http://localhost:3000/paths/C-Course/2"}
+              href={"/paths/C-Course/2"}
               className="mt-4 text-center rounded-md mx-auto w-90 bg-[#FF9800] py-2 px-10"
             >
               الدرس السابق

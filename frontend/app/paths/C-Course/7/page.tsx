@@ -734,13 +734,13 @@ export default function Lesson7Page() {
 
         <div className="w-full flex justify-between text-black text-lg font-semibold border-t border-[#FF9800]/40 pt-6 mt-6">
           <Link
-            href={"http://localhost:3000/paths/C-Course/8"}
+            href={"/paths/C-Course/8"}
             className="mt-4 text-center rounded-md mx-auto w-90 bg-[#FF9800] py-2 px-10 hover:bg-[#FFB84D] transition"
           >
             الدرس التالي
           </Link>
           <Link
-            href={"http://localhost:3000/paths/C-Course/6"}
+            href={"/paths/C-Course/6"}
             className="mt-4 text-center rounded-md mx-auto w-90 bg-[#FF9800] py-2 px-10 hover:bg-[#FFB84D] transition opacity-80"
           >
             الدرس السابق
